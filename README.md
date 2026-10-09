@@ -4,6 +4,10 @@ Homebrew tap for [HomeLab Management](https://github.com/karharry/HomeLabManagem
 a native macOS app for monitoring and managing TrueNAS, Linux, Windows, and
 macOS home-lab machines.
 
+> **Project status:** maintained on a best-effort basis alongside a full-time
+> job — no guaranteed support, updates, or response times. See the main
+> repo's README for details.
+
 ## Install
 
 ```bash
