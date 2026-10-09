@@ -7,7 +7,7 @@ cask "homelabmanagement" do
   desc "Unified dashboard for TrueNAS, Linux, Windows, and macOS home-lab machines"
   homepage "https://github.com/karharry/HomeLabManagement"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "HomeLab Management.app"
 
