@@ -20,9 +20,11 @@ brew install --cask homelabmanagement
 After publishing a new GitHub Release with a zipped `.app` attached:
 
 ```bash
-curl -L -o /tmp/HomeLabManagement.zip "https://github.com/karharry/HomeLabManagement/releases/download/vX.Y.Z/HomeLabManagement.zip"
+curl -L -o /tmp/HomeLabManagement.zip "https://github.com/karharry/HomeLabManagement/releases/download/X.Y.Z/HomeLabManagement.zip"
 shasum -a 256 /tmp/HomeLabManagement.zip
 ```
+
+(Release tags are plain `X.Y.Z`, no `v` prefix — matches `releases/tag/1.0.0` etc.)
 
 Update `Casks/homelabmanagement.rb` with the new `version` and the `sha256`
 printed above, then commit and push.
