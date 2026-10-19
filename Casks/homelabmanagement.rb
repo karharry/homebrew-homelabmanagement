@@ -1,11 +1,11 @@
 cask "homelabmanagement" do
-  version "1.0.0"
-  sha256 "a53df839bf5f473a5e51f4a38e294584a9f33a670e36c48ab598740166deacc4"
+  version "1.1"
+  sha256 "1bc4da4eb14b2fd1d04bf98f66d03a06bbd6ce88d8dc8e9f894ed02aa4b5cc7c"
 
-  url "https://github.com/karharry/HomeLabManagement/releases/download/#{version}/HomeLabManagement.zip"
+  url "https://github.com/karharry/HomeLabManagement-Mac/releases/download/#{version}/HomeLabManagement-macOS-#{version}.zip"
   name "HomeLab Management"
   desc "Unified dashboard for TrueNAS, Linux, Windows, and macOS home-lab machines"
-  homepage "https://github.com/karharry/HomeLabManagement"
+  homepage "https://github.com/karharry/HomeLabManagement-Mac"
 
   depends_on macos: :sonoma
 

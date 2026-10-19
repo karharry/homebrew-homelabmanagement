@@ -1,6 +1,6 @@
 # homebrew-homelabmanagement
 
-Homebrew tap for [HomeLab Management](https://github.com/karharry/HomeLabManagement),
+Homebrew tap for [HomeLab Management](https://github.com/karharry/HomeLabManagement-Mac),
 a native macOS app for monitoring and managing TrueNAS, Linux, Windows, and
 macOS home-lab machines.
 
@@ -20,7 +20,7 @@ brew install --cask homelabmanagement
 After publishing a new GitHub Release with a zipped `.app` attached:
 
 ```bash
-curl -L -o /tmp/HomeLabManagement.zip "https://github.com/karharry/HomeLabManagement/releases/download/X.Y.Z/HomeLabManagement.zip"
+curl -L -o /tmp/HomeLabManagement.zip "https://github.com/karharry/HomeLabManagement-Mac/releases/download/X.Y/HomeLabManagement-macOS-X.Y.zip"
 shasum -a 256 /tmp/HomeLabManagement.zip
 ```
 
