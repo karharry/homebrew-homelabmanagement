@@ -1,6 +1,6 @@
 cask "homelabmanagement" do
-  version "1.2.0"
-  sha256 "7cd7da9e326fa0eee68d8b6e3892acb3822591ada9d7abe7477a837f407c8ae5"
+  version "1.3.0"
+  sha256 "45ce77cb3ebb1d8a85354a71d43b22238632706e85025631b5811a5c08094adb"
 
   url "https://github.com/karharry/HomeLabManagement-Mac/releases/download/#{version}/HomeLabManagement-macOS-#{version}.zip"
   name "HomeLab Management"
